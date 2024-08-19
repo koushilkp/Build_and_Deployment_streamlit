@@ -1,0 +1,15 @@
+[theme]
+#Primary accent COLOR for interactive elements
+primaryColor ="#d33682"
+
+#Background Color for main Conent Area
+backgroundColor= "#002b36"
+
+#Background color used for Slider and most interactive widget
+secondarybackgroundColor = "#00360b"
+
+#color use for all most all text
+textColor ="#fff"
+
+[client]
+toolbarmode = "minimal"
