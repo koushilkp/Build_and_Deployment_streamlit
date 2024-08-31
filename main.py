@@ -20,11 +20,17 @@ project_2_page = st.Page(
     icon="🤖"
 )
 
+project_image = st.Page(
+    page="views/img_to_text.py",
+    title="Img_to_text",
+    icon="🧐"
+)
+
 # Navigation steup
 pg = st.navigation(
     {
         "info"      :[about_page],
-        "Project"   :[project_1_page, project_2_page]
+        "Project"   :[project_1_page, project_2_page,project_image]
     }
 )
 # run Navigation

@@ -9,7 +9,12 @@ backgroundColor= "#002b36"
 secondarybackgroundColor = "#00360b"
 
 #color use for all most all text
-textColor ="#fff"
+textColor ="#00b100"
 
 [client]
 toolbarmode = "minimal"
+
+#model selection 
+TRANSCRIPTION_MODEL = 'groq'
+RESPONSE_MODEL = 'groq'
+TTS_MODEL = 'groq'
